@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.loader{
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.error {
+    text-align: center;
+    padding: 40px;
+    background-color: #ff7070;
+    font-size: 25px;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+header > * {
+    margin: 1rem 0px;
+}
+form.form-search input {
+    padding: 0.25rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+article.post-card {
+    padding: 25px;
+    background-color: #0000ff24;
+    margin: 20px;
+    width: 80%;
+}
+.post-card p {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-fluid{
+    display: grid;
+    max-width: 90%;
+    margin:1rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+section#single-post {
+    padding: 2rem;
+    background-color: #0000ff29;
+}
+#single-post aside {
+    text-align: center;
+}
+#single-post hr {
+    width: 90%;
+    margin: 1rem auto;
+    border: 2px solid #0097ff;
+}
+.error mark {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #7d7dd7;
+}
