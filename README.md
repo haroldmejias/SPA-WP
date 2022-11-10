@@ -1,2 +1,2 @@
 # SPA - WP
- SPA with Api Wordpress
+ SPA with Api Wordpress (VanillaJS)
